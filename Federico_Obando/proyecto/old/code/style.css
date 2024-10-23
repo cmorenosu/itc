@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(16, 84px);
+    grid-auto-rows: 84px;
+}
+
+.piso, .esquinaA, .esquinaB, .muroA, .muroB, .paredA, .paredB, .bloqueS {
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/tanque.png");
+    background-repeat: no-repeat;
+}
+
+.esquinaA {
+    background-position: -504px -252px;
+}
+
+.esquinaB {
+    background-position: -588px -252px;
+}
+
+.muroA {
+    background-position: 0px -252px;
+}
+
+.muroB {
+    background-position: -84px -252px;
+}
+
+.paredA {
+    background-position: -252px -252px;
+}
+
+.paredB {
+    background-position: -420px -252px;
+}
+.bloqueS {
+    background-position: -168px -252px;
+}
+.aguila {
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/tanque.png");
+    background-repeat: no-repeat;
+    background-position-x: -588px;
+    background-position-y: -168px;
+    left: 1176px;
+    top: 504px;
+    z-index: 1;
+    position: absolute;
+}
+.tank {
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/tanque.png");
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: -84px;
+    left: 84px;
+    top: 84px;
+    z-index: 1;
+    position: absolute;
+}
