@@ -1,6 +1,10 @@
 # Guía de Uso de Git y GitHub
+## Clase Electiva Técnica de PHP
+### Escuela Tecnológica Instituto Técnico Central
 
-Este documento proporciona instrucciones sobre cómo instalar Git y GitHub desde la línea de comandos (CMD), así como cómo usar GitHub en línea sin necesidad de instalar software adicional. También incluye la URL donde se puede ver desplegado todo el contenido.
+![Logo de la Escuela](imagenes_genericas/logo.png)
+
+Este documento proporciona instrucciones sobre cómo instalar Git y GitHub desde la línea de comandos (CMD), cómo usar GitHub en línea sin necesidad de instalar software adicional, y la URL donde se puede ver desplegado todo el contenido.
 
 ## 1. Instalación de Git y GitHub desde CMD
 
