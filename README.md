@@ -52,9 +52,28 @@ Puedes usar GitHub directamente desde tu navegador web. Aquí tienes cómo hacer
 Puedes ver el contenido desplegado en la siguiente URL:
 
 [http://sistemasinformacioncet2.rf.gd](http://sistemasinformacioncet2.rf.gd)
+Vista pagina web:
 
-## Conclusión
+![web](imagenes_genericas/pagina2.jpeg)
 
-Esta guía te ayudará a comenzar a usar Git y GitHub. Si tienes preguntas o necesitas más ayuda, no dudes en consultar la [documentación oficial de Git](https://git-scm.com/doc) o la [documentación de GitHub](https://docs.github.com/en).
+### Visualizando Archivos en `index.php`
 
-¡Feliz codificación!
+El archivo `index.php` sirve como punto de entrada para tu aplicación PHP. Para ver los archivos listados en este archivo, asegúrate de seguir estos pasos:
+
+1. **Estructura de Carpetas**:
+   - Asegúrate de que tu `index.php` esté en el directorio raíz de tu proyecto y que contenga código para listar otros archivos o directorios.
+
+2. **Código Ejemplo en `index.php`**:
+   ```php
+   <?php
+   $dir = '.';
+   $files = scandir($dir);
+   echo "<h1>Archivos en el directorio</h1>";
+   echo "<ul>";
+   foreach ($files as $file) {
+       if ($file !== '.' && $file !== '..') {
+           echo "<li>$file</li>";
+       }
+   }
+   echo "</ul>";
+   ?>

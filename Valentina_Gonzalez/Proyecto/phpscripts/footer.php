@@ -4,7 +4,7 @@
 
     <div class="card text-center">
       <div class="card-header">
-        Hecho por Valentina y Maicol
+        Hecho por Valentina
       </div>
       <div class="card-body">
         <h5 class="card-title">Primer intento de footer</h5>
