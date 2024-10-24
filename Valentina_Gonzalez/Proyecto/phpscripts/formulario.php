@@ -1,11 +1,11 @@
 <? php
 // Usuarios a insertar
-$usuarios = [
-  [’nombre ’ => ’Juan Perez ’, ’email ’ => ’ juan@example .com ’],
-  [’nombre ’ => ’Maria Lopez ’, ’email ’ => ’ maria@example .com ’],
-  [’nombre ’ => ’Carlos Gomez ’, ’email ’ => ’ carlos@example .com ’],
-  [’nombre ’ => ’Ana Martinez ’, ’email ’ => ’ana@example .com ’],
-  [’nombre ’ => ’Pedro Sanchez ’, ’email ’ => ’ pedro@example .com ’]
+$usuarios  =  [
+  [’nombre’ => ’Juan Perez ’, ’email’ => ’ juan@example .com ’],
+  [’nombre’ => ’Maria Lopez ’, ’email’ => ’ maria@example .com ’],
+  [’nombre’ => ’Carlos Gomez ’, ’email’ => ’ carlos@example .com ’],
+  [’nombre’ => ’Ana Martinez ’, ’email’ => ’ana@example .com ’],
+  [’nombre’ => ’Pedro Sanchez ’, ’email’ => ’ pedro@example .com ’]
 ];
 
 // Insertar usuarios
