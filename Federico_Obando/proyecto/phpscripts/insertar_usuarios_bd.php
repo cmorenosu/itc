@@ -1,4 +1,4 @@
-'<?php
+<?php
     // Usuarios a insertar
     include "conexion_bd.php";
     

@@ -9,5 +9,5 @@ $dbname = "bd_valentina_gonzalez";
 if ($conn->connect_error) {
     die (" C o n e x i n fallida : " . $conn->connect_error );
 }
-echo " C o n e x i n exitosa a la base de datos ’ejemplo ’";
+echo " C o n e x i n exitosa a la base de datos ’bd_valentina_gonzalez’ ";
 ?>

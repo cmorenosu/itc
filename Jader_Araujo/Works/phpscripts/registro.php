@@ -1,5 +1,5 @@
 <?php
-
+include "conexion.php";
 // Usuarios a insertar
 $usuarios = [
 ['nombre' => 'Juan Perez', 'email' => 'juan@example.com'],
