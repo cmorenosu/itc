@@ -1,4 +1,5 @@
 <!-- Footer -->
+ <link rel="stylesheet" href="estilo.css">
 <footer class="bg-body-tertiary text-center text-lg-start mt-4">
     <div class="container p-4">
         <div class="row">

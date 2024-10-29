@@ -1,16 +1,28 @@
 <?php
+class conexion {
 
-$servername = "localhost";
-$username = "root";
-$password = "123456789";
-$dbname = "bd_jader_araujo";
+    // Declaramos las variables de entorno
+    protected $user = "root";
+    protected $url = "localhost";
+    protected $pass = "123456789";
+    protected $db = "db_jader_araujo"; 
+    protected $conex = null;
 
-// Crear la c o n e x i n
-$conn = new mysqli ( $servername , $username , $password , $dbname);
+    public function __construct() {
 
-// Verificar la c o n e x i n
-if ($conn -> connect_error ) {
-die (" C o n e x i n fallida : " . $conn -> connect_error );
-}
-echo " C o n e x i n exitosa a la base de datos ’ejemplo ’";
+        // hacemos la consulta en la base de datos
+        $this->conex = new mysqli(
+            $this-> servername,
+            $this-> username,
+            $this-> password,
+            $this-> dbname
+        );
+
+        // validamos la conexion
+        if($this->conex->connect_error){
+            die("Conexion fallida".$this->conex->connect_error);
+        }
+    }
+} 
+
 ?>

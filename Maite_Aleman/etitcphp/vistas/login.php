@@ -1,4 +1,6 @@
 <br>
+<link rel="stylesheet" href="estilo.css">
+
 <!-- Container -->
 <div class="container my-5">
     <!-- Row -->

@@ -6,10 +6,11 @@
     <!-- Enlace a la versión más reciente de Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-YourBootstrapHash" crossorigin="anonymous">
     <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="estilo.css">
     <title>Mi Primer Proyecto</title>
 </head>
 <body>
+    
     <!-- Encabezado -->
     <header class="bg-primary text-white text-center py-3">
         <h1>Bienvenido a Mi Primer Proyecto</h1>
