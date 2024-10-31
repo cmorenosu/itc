@@ -1,4 +1,10 @@
 <?php
+echo "este formulario se opera por clases";
+include "conexion.php";
+
+$mysqldata = new conexion()
+
+/*
 include "bd_shirley_imbachi.php";
 // Usuarios a insertar
  $usuarios = [
@@ -27,5 +33,6 @@ foreach ( $usuarios as $usuario ) {
 
  // Cerrar la c o n e x i n
  $conn -> close () ;
+ */
 
  ?>

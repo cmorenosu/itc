@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$username   = "root";
-$password   = "123456789";
-$dbname = "bd_valentina_gonzalez";
+    $servername = "localhost";
+    $username   = "root";
+    $password   = "123456789";
+   $dbname = "bd_valentina_gonzalez";
 // Crear la c o n e x i n
- $conn = new mysqli($servername , $username , $password , $dbname);
+ $conn = new mysqli($servername , $username , $password , $dbname
+);
 // Verificar la c o n e x i n
 if ($conn->connect_error) {
-    die (" C o n e x i n fallida : " . $conn->connect_error );
+    die (" Conexion fallida : " . $conn->connect_error );
 }
-echo " C o n e x i n exitosa a la base de datos ’bd_valentina_gonzalez’ ";
+echo " Conexion exitosa a la base de datos ’bd_valentina_gonzalez’ ";
 ?>

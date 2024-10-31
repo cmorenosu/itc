@@ -6,7 +6,7 @@
         <div class="col-md-6 text-center">
             <h3 class="mb-3">Imagen</h3>
             <img 
-                src="https://i.pinimg.com/474x/8e/6c/e3/8e6ce3a9849eec8c92c3595d8ffc22cc.jpg" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVBgZzKluZod_6Xpr3IQ_e0L3ovje7aG9Yng&s" 
                 alt="Imagen de ejemplo"
                 class="img-fluid rounded shadow"
                 style="max-width: 100%; height: auto;"

@@ -1,12 +1,22 @@
 <?php
-include "conex.php";
+   echo "Este formulario se opéra por clases";
+   include "conexion.php";
+
+   $mysqldata = new Conexion();
+
+
+
+
+
+/*
+   include "conex.php";
  // Usuarios a insertar
   $usuarios = [
-  ['nombre' => 'Juan Perez', 'email' => 'juan@example.com'],
-  ['nombre' => 'Maria Lopez', 'email' => 'maria@example.com'],
-  ['nombre' => 'Carlos Gomez', 'email' => 'carlos@example.com'],
-  ['nombre' => 'Ana Martinez', 'email' => 'ana@example.com'],
-  ['nombre' => 'Pedro Sanchez', 'email' => 'pedro@example.com']
+  ['nombre ' => 'Juan Perez', 'email' => 'juan@example .com'],
+  ['nombre ' => 'Maria Lopez', 'email' => 'maria@example .com'],
+  ['nombre ' => 'Carlos Gomez', 'email' => 'carlos@example .com'],
+  ['nombre ' => 'Ana Martinez', 'email' => 'ana@example .com'],
+  ['nombre ' => 'Pedro Sanchez', 'email' => 'pedro@example .com']
  ];
 
  // Insertar usuarios
@@ -24,4 +34,6 @@ include "conex.php";
 
 // Cerrar la c o n e x i n
 $conn -> close();
+*/
+
 ?>

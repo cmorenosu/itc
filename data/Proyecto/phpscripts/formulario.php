@@ -1,5 +1,15 @@
 <?php
-include "conex.php";
+   echo "Este formulario se opéra por clases";
+   include "conexion.php";
+
+   $mysqldata = new Conexion();
+
+
+
+
+
+/*
+   include "conex.php";
  // Usuarios a insertar
   $usuarios = [
   ['nombre ' => 'Juan Perez', 'email' => 'juan@example .com'],
@@ -24,4 +34,6 @@ include "conex.php";
 
 // Cerrar la c o n e x i n
 $conn -> close();
+*/
+
 ?>
