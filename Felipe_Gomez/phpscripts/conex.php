@@ -5,7 +5,7 @@
     $dbname = "bd_felipe_gomez";
 
     // Crear la c o n e x i n
-    $conn = new mysqli ( $servername , $username , $password , $dbnam) ;
+    $conn = new mysqli ( $servername , $username , $password , $dbname) ;
     // Verificar la c o n e x i n
     if ($conn -> connect_error ) {
     die (" C o n e x i n fallida : " . $conn -> connect_error ) ;

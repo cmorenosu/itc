@@ -1,16 +1,53 @@
 <?php
+class conexion {
 
-$servername = "localhost";
-$username = "root";
-$password = "123456789";
-$dbname = "ejemplo";
+    // Declaramos las variables de entorno
+    protected $servername = "localhost";
+    protected $username = "root";
+    protected $password = "123456789";
+    protected $dbname = "bd_jader_araujo";
+    protected $conex = null;
 
-// Crear la c o n e x i n
-$conn = new mysqli ( $servername , $username , $password , $dbname);
+    // con esta funcion creamos el objeto para MySQL 
+    public function __construct() {
 
-// Verificar la c o n e x i n
-if ($conn -> connect_error ) {
-die (" C o n e x i n fallida : " . $conn -> connect_error );
-}
-echo " C o n e x i n exitosa a la base de datos ’ejemplo ’";
+        $data = null;
+
+        // hacemos la consulta en la base de datos
+        $this->conex = new mysqli(
+
+            $this->servername,
+            $this->username,
+            $this->password,
+            $this->dbname
+        );
+
+        // validamos la conexion
+        if($this->conex->connect_error){
+            die("<hr>Conexion fallida ".$this->conex->connect_error);
+        }
+        else {
+           $data = "<hr>conexion exitosa";
+        }
+
+        echo $data;
+    }
+
+    public function instalar($sql) {
+        
+        $data = null;
+
+        if($this->conex->query($sql) === true) {
+            $data = "Consulta SQL exitosa";
+        } else {
+            $data = "Error: ".$sql."<br>".$this->conex->error;
+        }
+        return $data;
+    }
+
+    public function finalizar() {
+        $this->conex->close();
+    }
+} 
+
 ?>

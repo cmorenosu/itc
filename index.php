@@ -34,7 +34,7 @@
                         <a class="nav-link" aria-current="page" target="_blank" href=<?php echo "http://".$_SERVER["SERVER_NAME"]."/phpmyadmin"; ?>>MySQL Base de Datos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://github.com/mrcamssys">Repositorio</a>
+                        <a class="nav-link" target="_blank" href="https://github.com/cmorenosu/itc">Repositorio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://mrcamssys.rf.gd/mrcamssys/?i=1">Web Docente</a>

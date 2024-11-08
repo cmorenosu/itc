@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="estilo.css">
 <?php
+
     session_start(); // Iniciar sesión
  
     // Datos simulados de usuario correcto

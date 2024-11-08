@@ -112,3 +112,15 @@
     left: 168px;
     top: 168px;
 }
+.tr{
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/tanque.png");
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: -84px;
+    z-index: 1;
+    position: absolute;
+    left: 168px;
+    top: 168px;
+}
