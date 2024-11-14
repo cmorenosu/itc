@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(243, 204, 204), 240, 240); /* Cambia el color según prefieras */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min:height 100px;;
+    margin:0;
+}
+
+/* Estilo para centrar el contenido */
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
