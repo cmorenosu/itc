@@ -9,12 +9,12 @@
         <div class="col-md-6">
             <div class="card shadow-lg border-0">
                 <div class="card-body p-4">
-                    <h3 class="text-center mb-4">Bienvenidos al sistema de juegos XYZ</h3>
+                    <h3 class="text-center mb-4">Bienvenidos</h3>
                     <form method="post" action="index.php">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
                             <input type="email" name="user" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo">
-                            <div id="emailHelp" class="form-text">Por favor, ingrese un correo válido.</div>
+                            <div id="emailHelp" class="form-text"> Ingrese un correo válido.</div>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>

@@ -1,3 +1,4 @@
+<link rel="stylesheet"href="estilos.css">
 <?php
     session_start(); // Iniciar sesión
  
