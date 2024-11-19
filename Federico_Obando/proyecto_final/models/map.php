@@ -1,5 +1,5 @@
 <?php
-require_once 'database.php';
+require_once '..\config\database.php';
 
 class Map {
     private $db;
@@ -19,4 +19,5 @@ class Map {
         return $stmt->get_result()->fetch_assoc()['datos'] ?? null;
     }
 }
+
 ?>

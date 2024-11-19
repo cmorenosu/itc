@@ -1,5 +1,5 @@
 <?php
-require_once 'database.php';
+require_once '..\config\database.php';
 
 class User {
     private $db;
@@ -27,4 +27,10 @@ class User {
         return false;
     }
 }
+
+$user = new User;
+$user->register("Pancho", "pancho@gmail.com", "hbjcb8s90JVCIVY");
+$user->register("Simon", "simon@gmail.com", "hbjcb9s90JVsdVY");
+$user->register("Lilia", "lilia@witchmail.com", "hbjcb5s90JVm6lY");
+echo "conexión exitosa"; 
 ?>
