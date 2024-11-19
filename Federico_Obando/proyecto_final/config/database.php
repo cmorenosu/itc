@@ -30,6 +30,16 @@
             $stmt->execute();
             return $stmt;
         }
+        public function insertar($sql){
+            // $sql = "INSERT INTO usuario(nombre,email) VALUES('$nombre','$email')";
+                $data=null;
+            if($this ->conex-> query($sql)===TRUE) {
+                $data="Usuario $nombre registrado exitosamente . <br >";
+            } else {
+                $data="Error :" . $sql . "<br>".$this->$conex -> error;
+            }
+            return $data;
+        }
         public function close(){
             $this->conn->close();
         }
