@@ -5,7 +5,6 @@
         protected $pass = "123456789";
         protected $dbname = "bd_federico_obando";
         protected $conn = null;
-
         public function __construct(Type $var = null) {
             $this -> database  = new mysqli (
                 $this -> servername,
@@ -13,7 +12,6 @@
                 $this -> password,
                 $this -> dbname
             );
-
             if ($this -> database -> connect_error) {
                 die ("Conexion fallida : " . $this -> conex -> connect_error) ;
                 }
@@ -44,6 +42,4 @@
             $this->conn->close();
         }
     }
-
-    
 ?>
