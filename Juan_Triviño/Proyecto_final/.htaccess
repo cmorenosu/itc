@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteCond $1 !^(index\.php|public)
-RewriteRule ^(.*) index.php/$1 [L]
-
-
-ErrorDocument 404 https://workspace.google.com/intl/es/gmail/JGGFSSTGV
