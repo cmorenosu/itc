@@ -26,7 +26,7 @@ class Conexion{
     }
         
  
-
+/*
     public function insertar($sql){
         //$sql = " INSERT INTO usuario (nombre , email ) VALUES ( '$nombre', '$email')";
         $data=null;
@@ -38,11 +38,12 @@ class Conexion{
         return $data;  
     }
 
-
     public function finalizar(){
        $this->conex->close();
     }
-  
+ */ 
 }
 
+$Conexion = new Conexion;
+echo "<hr>lee la clase"
 ?>

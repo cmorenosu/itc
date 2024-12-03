@@ -19,7 +19,7 @@ h1, h3 {
 /* Estilo para la Tarjeta de Login */
 .card {
     border-radius: 8px;
-    box-shadow: pink;
+    box-shadow: rgb(138, 17, 37);
 }
 
 .card-body {
@@ -73,6 +73,7 @@ h1, h3 {
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
+
 }
 
 /* Footer */
