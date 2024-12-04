@@ -1,0 +1,12 @@
+ #RewriteEngine on
+ #RewriteCond $1 !^(index\.php|public|models|views)
+ #RewriteRule ^(.*) index.php/$1 [L]
+
+# Manejar errores 404
+# ErrorDocument 404 /views/components/404.php
+
+RewriteEngine On
+# RewriteBase /itc/original/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

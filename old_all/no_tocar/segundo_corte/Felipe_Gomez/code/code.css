@@ -1,0 +1,75 @@
+.tablero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px; 
+    height: 588px;
+    background-color: #799ae0;
+}
+
+
+/*pared 1*/
+.b{
+    position: relative;
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: -168px;
+    background-position-y: -252px;
+    z-index: 10;
+    
+}
+.c{
+    position: relative;
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: -168px;
+    background-position-y: -252px;
+    z-index: 10;
+}
+
+/*pared 2*/
+.e{
+    position: relative;
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: -505px;
+    background-position-y: -252px;
+    z-index: 10;
+}
+/*pared 3*/
+.f{
+    position: relative;
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: -587px;
+    background-position-y: -252px;
+    z-index: 10;
+}
+/*Piso*/
+.p{
+    position: relative;
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    z-index: 1;
+}
+/*Tanque*/
+.t{
+    height: 84px;
+    width: 84px;
+    background-image: url("../imagenes/mapa.png");
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: -84px;
+}
+

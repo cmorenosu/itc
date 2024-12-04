@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|public|views)
+RewriteRule ^(.*) index.php/$1 [L]
+
+
+ErrorDocument 404 https://www.youtube.com/%20paginaerror

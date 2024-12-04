@@ -1,0 +1,130 @@
+.j{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.a{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -252px;
+}
+.b{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: -252px;
+}
+.c{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -168px;
+    background-position-y: -252px;
+}
+.d{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -252px;
+    background-position-y: -252px;
+}
+.e{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -336px;
+    background-position-y: -252px;
+}
+.f{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -420px;
+    background-position-y: -252px;
+}
+.g{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -504px;
+    background-position-y: -252px;
+}
+.h{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -588px;
+    background-position-y: -252px;
+}
+.tanque{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: -84px;
+    left: 84px;
+    top: 84px;
+    z-index: 1;
+    position: absolute;
+}
+.tanque2{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -84px;
+    background-position-y: 0px;
+    left: 84px;
+    top: 84px;
+    z-index: 1;
+    position: absolute;
+}
+.misil{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -336px;
+    background-position-y: -168px;
+    left: 84px;
+    top: 84px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+.misil2{
+    height: 84px;
+    width: 84px;
+    background-image: url('../images/tanque.png');
+    background-repeat: no-repeat;
+    background-position-x: -336px;
+    background-position-y: -168px;
+    left: 84px;
+    top: 84px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+
+.tablero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 672px; /*ancho*/
+    height: 756px; /*alto*/
+}

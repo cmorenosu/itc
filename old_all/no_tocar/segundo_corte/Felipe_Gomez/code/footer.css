@@ -1,0 +1,38 @@
+.body {
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diseñoPerro {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    color: #0d0d0ee2;
+    background-color: rgb(209, 189, 77);
+    margin: 4px;
+    align-content: center;
+    border-radius: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.diseñoPerro:hover {
+    background-color: rgb(4, 117, 79);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    line-height: 50px;
+}
+.letra{
+    font-family: fantasy;
+    font-size: 11%;
+}
