@@ -8,7 +8,7 @@ class Router {
         $method = $segments[1] ?? 'index';
         $params = array_slice($segments, 2);
 
-        $controllerFile = "Programa/controller/{$controller}.php";
+        $controllerFile = "Programa/controllers/{$controller}.php";
         if (file_exists($controllerFile)) {
             require_once $controllerFile;
             $controllerInstance = new $controller();
