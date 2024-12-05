@@ -1,11 +1,12 @@
 <?php
 spl_autoload_register(function ($class) {
-    $paths = ['programa/controllers/', 'programa/models/', 'system/core/', 'system/libraries/'];
+    $paths = ['System/core', 'System/libraries', 'programa/models'];
     foreach ($paths as $path) {
-        $file = __DIR__ . '/' . $path . $class . '.php';
+        $file = $path . '/' . $class . '.php';
         if (file_exists($file)) {
             require_once $file;
             return;
         }
     }
+    die("Class $class not found.");
 });
